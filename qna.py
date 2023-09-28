@@ -14,7 +14,7 @@ from chainlit.types import AskFileResponse
 
 
 
-os.environ['OPENAI_API_KEY'] ="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"
+os.environ['OPENAI_API_KEY'] ="write your own api key hre"
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 embeddings = OpenAIEmbeddings()
 
